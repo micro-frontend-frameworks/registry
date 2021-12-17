@@ -1,0 +1,25 @@
+{
+  "name": "@mfe-frameworks/registry",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Marcelo Cardoso",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "vercel dev"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.3.0",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "@sentry/node": "^6.15.0",
+    "@sentry/tracing": "^6.15.0",
+    "@vercel/node": "^1.12.1",
+    "axios": "^0.24.0",
+    "firebase": "^9.4.1"
+  }
+}
